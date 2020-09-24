@@ -70,3 +70,14 @@ credentials:
           id: "cloudbees-ci-workshop-github-app"
           owner: "BillGarrett-DW2020"
           privateKey: "${gitHubAppPrivateKey}"
+cloudbees-slack-integration:
+  config:
+    slackToken: "${slackToken}"
+    slackWorkspace: "T010A455W77"
+    users:
+    - id: "BillGarrett"
+      jenkins: "BillGarrett"
+      optedIn: true
+      scmId: "BillGarrett"
+      slack: "bgarrett@cloudbees.com"
+      slackWorkspace: "T010A455W77"
