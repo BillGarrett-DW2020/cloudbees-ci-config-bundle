@@ -82,5 +82,5 @@ cloudbees-slack-integration:
       jenkins: "BillGarrett"
       optedIn: true
       scmId: "BillGarrett"
-      slack: "REPLACE_USER_EMAIL"
+      slack: "bgarrett@cloudbees.com"
       slackWorkspace: "T010A455W77"
